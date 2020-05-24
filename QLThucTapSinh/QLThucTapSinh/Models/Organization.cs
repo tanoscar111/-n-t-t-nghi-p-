@@ -38,7 +38,7 @@ namespace QLThucTapSinh.Models
         [StringLength(250)]
         public string Logo { get; set; }
 
-        [StringLength(500)]
+        [StringLength(5000)]
         public string Note { get; set; }
 
         [StringLength(250)]
