@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous" />-->
+    <link href="http://localhost:57770/Content/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css"
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700" />
+    <!--<link rel="stylesheet" href="./index.css" />-->
+    <link href="../Content/Home/index.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container1">
+        <div class="circle"></div>
+        <h1>Thông tin của thực tập sinh</h1>
+        <p class="thongtin">
+            Họ và Tên : Trần Thành Nam <br />
+            Giới Tính : Nam<br />
+            Tuổi : 22<br />
+            Địa Chỉ : An Khê, Quận Thanh Khê, TP Đà Nẵng<br />
+            Phone : 0905865877 <br />
+            Email : thnam98@gmail.com<br />
+            School : Đại Học Duy Tân<br />
+        </p>
+        <h1 class="classh1">Xếp hạng các khóa học của thực tập sinh</h1>
+        <div class="rank">
+            <ul>
+                <li>
+                    <span class="number">1</span>
+                    <span class="name">Khóa học lập trình C#</span>
+                    <span class="points">100</span>
+                    <span class="badge">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                    </span>
+                </li>
+                <li>
+                    <span class="number">2</span>
+                    <span class="name">Khóa học lập trình JavaScript từ A-Z</span>
+                    <span class="points">95</span>
+                    <span class="badge">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                    </span>
+                </li>
+                <li>
+                    <span class="number">3</span>
+                    <span class="name">Khóa học lập trình Master CSS</span>
+                    <span class="points">85</span>
+                    <span class="badge">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                    </span>
+                </li>
+                <li>
+                    <span class="number">4</span>
+                    <span class="name">Khóa học lập trình Python</span>
+                    <span class="points">80</span>
+                    <span class="badge">
+                        <i class="fa fa-shield" aria-hidden="true"></i>
+                    </span>
+                </li>
+                <li>
+                    <span class="number">5</span>
+                    <span class="name">Khóa học lập trình Java</span>
+                    <span class="points">70</span>
+                    <span class="badge">
+                        <i class="fa fa-shield" aria-hidden="true"></i>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <button onclick="document.getElementById('id01').style.display='block'"
+                style="width:auto;"
+                class="nut">
+            Thay đổi mật khẩu
+        </button>
+        <button onclick="document.getElementById('id02').style.display='block'"
+                style="width:auto;"
+                class="nut1">
+            Cập nhật thông tin
+        </button>
+    </div>
+
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                      class="close"
+                      title="Close Modal">&times;</span>
+                <img class="circle1" src="./img/hinhavatar.jpg" alt="" />
+            </div>
+
+            <div class="container">
+                <label for="psw"><b>Mật khẩu</b></label>
+                <input type="password"
+                       placeholder="Enter Password"
+                       name="psw"
+                       required />
+                <label for="psw"><b>Mật khẩu mới</b></label>
+                <input type="password"
+                       placeholder="Enter Password"
+                       name="psw"
+                       required />
+                <label for="psw"><b> Nhập lại mật khẩu mới</b></label>
+                <input type="password"
+                       placeholder="Enter Password"
+                       name="psw"
+                       required />
+                <button type="submit" class="nut">Thay đổi mật khẩu</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" /> Remember
+                    me
+                </label>
+            </div>
+        </form>
+    </div>
+
+    <div id="id02" class="modal">
+        <form class="modal-content animate" action="" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'"
+                      class="close"
+                      title="Close Modal">&times;</span>
+                <img class="circle1" src="./img/hinhavatar.jpg" alt="" />
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Họ và tên</b></label>
+                <input type="text"
+                       placeholder="Enter Username"
+                       name="uname"
+                       required />
+
+                <label for="uname"><b>Giới tính</b></label>
+                <input type="text"
+                       placeholder="Enter Username"
+                       name="uname"
+                       required />
+                <label for="uname"><b>Địa chỉ</b></label>
+                <input type="text"
+                       placeholder="Enter Username"
+                       name="uname"
+                       required />
+                <label for="uname"><b>Số didenj thoại</b></label>
+                <input type="text"
+                       placeholder="Enter Username"
+                       name="uname"
+                       required />
+                <label for="uname"><b>email</b></label>
+                <input type="text"
+                       placeholder="Enter Username"
+                       name="uname"
+                       required />
+                <label for="uname"><b>Tên trường</b></label>
+                <input type="text"
+                       placeholder="Enter Username"
+                       name="uname"
+                       required />
+                <button type="submit" class="nut">Cập nhật thông tin</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" /> Remember
+                    me
+                </label>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/e00695e77f.js"
+        crossorigin="anonymous"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+<script src="../Scripts/HomeControl/jquery-3.4.1.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
+<script src="http://localhost:57770/Scripts/popper.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>-->
+<script src="http://localhost:57770/Scripts/bootstrap.min.js"></script>
+<!--<script src="./index.js"></script>-->
+<script src="../Scripts/HomeControl/index.js"></script>
+</html>

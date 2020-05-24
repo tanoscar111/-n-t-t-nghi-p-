@@ -1,0 +1,52 @@
+﻿@model QLThucTapSinh.Common.LeaderClass
+
+@{
+    ViewBag.Title = "Create Intern";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<link href="~/Content/dataTables.bootstrap.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<h2 class="text-primary" style="text-align:center">CHUYỂN GIAO QUẢN LÝ</h2>
+
+@using (Html.BeginForm("Delete", "QLLeader", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.PersonID)
+        <div class="form-group">
+            @Html.LabelFor(model => model.FullName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NewPersonID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("NewPersonID", (IEnumerable<SelectListItem>)ViewBag.ListLeader, "Chọn Quản lý", htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.NewPersonID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+<script src="https://kit.fontawesome.com/e00695e77f.js"
+        crossorigin="anonymous"></script>
+<script src="../Scripts/HomeControl/jquery-3.4.1.min.js"></script>
+<script src="http://localhost:57770/Scripts/popper.min.js"></script>
+<script src="http://localhost:57770/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+<script src="../Scripts/HomeControl/index1.js"></script>

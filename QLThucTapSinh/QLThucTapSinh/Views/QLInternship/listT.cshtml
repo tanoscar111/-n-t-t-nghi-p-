@@ -1,0 +1,35 @@
+﻿@{
+
+    var internShips = (List<QLThucTapSinh.Models.InternShip>)ViewBag.listT;
+}
+
+@model List<QLThucTapSinh.Common.TaskDatabase>
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<link href="~/Content/Quanli/style.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="@Url.Content("~/Scripts/Plugins/jquery-1.10.2.js")" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        $('.dsach').change(function () {
+            var sort = $(this).val();
+            alert(sort);
+        });
+    });
+</script>
+@foreach (var item in Model)
+{
+    {
+        <tr>
+            <td>@Html.DropDownList("@item.TaskID", (IEnumerable<SelectListItem>)ViewBag.listID, @item.sort.ToString(), new { @class = "dsach form-control", @id = "sort" })</td>
+            <td><a href="">@item.taskname</a></td>
+            <td><a href="/QLInternship/Dele/@item.ID" class="btn btn-outline btn-primary">Xóa</a></td>
+        </tr>
+    }
+}
+<script src="https://kit.fontawesome.com/e00695e77f.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>

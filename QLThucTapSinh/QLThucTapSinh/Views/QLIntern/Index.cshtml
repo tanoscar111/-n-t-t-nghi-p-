@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    var internShips = (List<QLThucTapSinh.Models.InternShip>)ViewBag.listI;
+}
+@using QLThucTapSinh.Common;
+@using PagedList.Mvc;
+@model List<QLThucTapSinh.Common.InternDatabase>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<link href="~/Content/dataTables.bootstrap.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="~/Scripts/InternControl/Index.js"></script>
+<div class="from1">
+    <div class="text-primary" style="text-align:center"> DANH SÁCH THỰC TẬP SINH CHƯA CÓ KHÓA HỌC</div>
+    <h1 class="page-header">
+        <a href="/QLIntern/Create" id="them" class="them btn btn-outline btn-primary">Thêm</a>
+        <a href="/QLIntern/imPortExcel" id="them" class="them btn btn-outline btn-primary">Thêm File Excel</a>
+        <a href="/QLIntern/ListIntern/0" class="notIntership btn btn-outline btn-primary">Danh sách Thực tập sinh</a>
+    </h1>
+    <input class="form-control" id="myInput" type="text" placeholder="Search..">
+
+        <div class="dataTable_wrapper">
+            <table class="table table-striped table-bordered table-hover" id="table">
+                <thead>
+                    <tr>
+                        <th class="text-center"><input type="checkbox" id="checkAll" /></th>
+                        <th class="text-center">Họ và tên</th>
+                        <th class="text-center">Công ty</th>
+                        <th class="text-center">Email</th>
+                        <th class="text-center">Phone</th>
+                        <th class="text-center">Sửa</th>
+                        <th class="text-center">Xóa</th>
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                    @foreach (var item in Model)
+                    {
+                        {
+                            <tr>
+                                <td class="text-center"><input name="dschon" type="checkbox" value="@item.PersonID" /> </td>
+                                <td>@item.FullName</td>
+                                <td>@item.CompanyName</td>
+                                <td>@item.Email</td>
+                                <td>@item.Phone</td>
+                                <td> <a href="/QLIntern/Edit/@item.PersonID" class="btn btn-outline btn-primary">Sửa</a> </td>
+                                <td><a href="/QLIntern/Delete/@item.PersonID" class="btn btn-outline btn-primary">Xóa</a> </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+
+</div>
+
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/InternControl/Index.js"></script>
+

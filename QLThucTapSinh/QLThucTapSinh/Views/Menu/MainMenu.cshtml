@@ -1,0 +1,27 @@
+﻿@model List<QLThucTapSinh.Models.Menu>
+<link rel="stylesheet" href="~/Content/Home/nav.css" />
+<nav id="sidebar">
+    <div class="navdoc">
+        <div id="sidebar-header">
+            <a href="/TrangChu/Index"><img class="logo" src="~/img/logo.png"></a>
+        </div>
+        <ul class="list-unstyled components">
+            @foreach (var item in Model)
+            {
+                <li>
+                    <a href="@item.Link">@item.TextMenu</a>
+                </li>
+            }
+
+        </ul>
+
+    </div>
+
+</nav>
+<div class=" back-to-top"><i class="fas fa-angle-double-right"></i></div>
+<div class=" back-to-top"><i class="fas fa-angle-double-right"></i></div>
+<script src="https://kit.fontawesome.com/e00695e77f.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="~/Scripts/popper.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/HomeControl/index2.js"></script>

@@ -1,0 +1,137 @@
+body
+{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.card
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	min-height: 400px;
+}
+.card .front 
+{
+	width: 100%;
+	height: 100%;
+	background: #2196f3;
+	padding: 30px;
+	box-sizing: border-box;
+	transition: .5s;
+	transform-origin: right;
+}
+.course
+{
+	font-weight: bold;
+	width: 50%;
+	text-align: left;
+	color: #fff;
+	float: left;
+}
+.more
+{
+	width: 50%;
+	text-align: right;
+	cursor: pointer;
+	float: right;
+	font-size: 24px;
+	color: #fff;
+	display: block;
+}
+.icon
+{
+	padding: 50px 0 20px;
+	text-align: center;
+}
+.icon .fa
+{
+	font-size: 80px;
+	color: #fff;
+}
+.icon h1 
+{
+	margin:0;
+	padding: 0;
+	font-size: 40px;
+	color: #fff;
+}
+.information
+{
+	margin: 0;
+	padding: 0;
+}
+.information li 
+{
+	padding: 10px 0;
+	border-bottom: 2px solid #fff;
+	display: flex;
+	font-weight: bold;
+	cursor: pointer;
+	color: #fff;
+}
+
+.information li .opentime
+{
+	width: 50%;
+}
+.information li .otime
+{
+	width: 50%;
+	text-align: right;
+}.information li .endtime
+{
+	width: 80%;
+}
+.information li .etime
+{
+	width: 50%;
+	text-align: right;
+}
+.information li .infor
+{
+	width: 100%;
+}.information li .details
+{
+	width: 100%;
+	text-align: right;
+}
+.card .back
+{
+	position: absolute;
+	top:0;
+	left: 0;
+	background: #ff2877;
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+	transform-origin: left;
+	transition: .5s;
+	transform: translateX(100%) rotateY(90deg);
+}
+.card .back.active
+{
+	transform: translateX(0) rotateY(0deg);
+}
+.card .front.active
+{
+	transform: translateX(0) rotateY(0deg);
+}
+.card .front
+{
+	transform: translateX(-100%) rotateY(90deg);
+}
+
+.go-back
+{
+	font-size: 24px;
+	color: #fff;
+	text-align: right;
+}
+.go-back .fa
+{
+	cursor: pointer;
+}

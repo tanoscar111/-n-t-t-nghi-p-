@@ -1,0 +1,602 @@
+D:\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll.config
+D:\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.pdb
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe.config
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.rsp
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe.config
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.rsp
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.AppContext.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Collections.Immutable.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Console.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Compression.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Reflection.Metadata.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.AccessControl.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Claims.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Principal.Windows.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.ValueTuple.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XmlDocument.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe.config
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.rsp
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe
+D:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe.config
+D:\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.Web.Infrastructure.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\WebGrease.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.pdb
+D:\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csprojAssemblyReference.cache
+D:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CoreCompileInputs.cache
+D:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CopyComplete
+D:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.dll
+D:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.pdb
+D:\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\PagedList.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\PagedList.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.xml
+D:\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.dll
+D:\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.pdb
+E:\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll.config
+E:\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.pdb
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe.config
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.rsp
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe.config
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.rsp
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Managed.Core.targets
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.AppContext.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Collections.Immutable.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Console.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Compression.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Reflection.Metadata.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.AccessControl.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Claims.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Principal.Windows.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.ValueTuple.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XmlDocument.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe.config
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.rsp
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe
+E:\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe.config
+E:\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.Web.Infrastructure.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\PagedList.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\WebGrease.dll
+E:\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.pdb
+E:\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\PagedList.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.xml
+E:\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.pdb
+E:\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csprojAssemblyReference.cache
+E:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CoreCompileInputs.cache
+E:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CopyComplete
+E:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.dll
+E:\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.pdb
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll.config
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.pdb
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe.config
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.rsp
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe.config
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.rsp
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.AppContext.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Console.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Compression.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Claims.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.ValueTuple.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe.config
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.rsp
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\PagedList.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\WebGrease.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.pdb
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\PagedList.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.pdb
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csprojAssemblyReference.cache
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CoreCompileInputs.cache
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CopyComplete
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.dll
+C:\Users\Tan\Desktop\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.pdb
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll.config
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.pdb
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe.config
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.rsp
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe.config
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.rsp
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.AppContext.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Console.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Compression.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Claims.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.ValueTuple.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe.config
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.rsp
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\PagedList.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\WebGrease.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.pdb
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\PagedList.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.pdb
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csprojAssemblyReference.cache
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CoreCompileInputs.cache
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CopyComplete
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.dll
+C:\Users\Tan\Desktop\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.pdb
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CoreCompileInputs.cache
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.pdb
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll.config
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.pdb
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe.config
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.rsp
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe.config
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.rsp
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.AppContext.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Console.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Compression.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Claims.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.ValueTuple.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe.config
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.rsp
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\PagedList.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\WebGrease.dll
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.pdb
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\PagedList.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.pdb
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CopyComplete
+C:\Users\Lanh\Desktop\New folder\codedoantotnghiep\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csprojAssemblyReference.cache
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll.config
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.pdb
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe.config
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.rsp
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe.config
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.rsp
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.AppContext.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Collections.Immutable.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Console.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Compression.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Reflection.Metadata.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.AccessControl.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Claims.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Principal.Windows.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.ValueTuple.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XmlDocument.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe.config
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.rsp
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe.config
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.Web.Infrastructure.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\PagedList.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\WebGrease.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.pdb
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\PagedList.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.pdb
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csprojAssemblyReference.cache
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CoreCompileInputs.cache
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CopyComplete
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.dll
+D:\đồ án tốt nghiệp cuối cùng\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.pdb
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll.config
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\QLThucTapSinh.pdb
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.exe.config
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csc.rsp
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.exe.config
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\csi.rsp
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.AppContext.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Collections.Immutable.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Console.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Compression.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.IO.Pipes.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Reflection.Metadata.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.AccessControl.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Claims.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Security.Principal.Windows.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.ValueTuple.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XmlDocument.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.exe.config
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\vbc.rsp
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\roslyn\VBCSCompiler.exe.config
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.Web.Infrastructure.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\PagedList.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\WebGrease.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\CKFinder.pdb
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\EntityFramework.SqlServer.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\PagedList.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\PagedList.Mvc.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Helpers.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Mvc.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Optimization.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.Razor.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Deployment.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\System.Web.WebPages.Razor.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\Newtonsoft.Json.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\Antlr3.Runtime.pdb
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csprojAssemblyReference.cache
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CoreCompileInputs.cache
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.csproj.CopyComplete
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.dll
+D:\he phan tan\QLThucTapSinh\QLThucTapSinh\obj\Debug\QLThucTapSinh.pdb

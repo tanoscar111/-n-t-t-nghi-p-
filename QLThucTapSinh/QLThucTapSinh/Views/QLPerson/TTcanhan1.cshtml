@@ -1,0 +1,219 @@
+﻿@model QLThucTapSinh.Models.Person
+@{
+    ViewBag.Title = "VC";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link href="http://localhost:57770/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Home/index3.css" rel="stylesheet" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<title>Document</title>
+
+<body>
+    <div class="container1">
+        <h1 class="information">THÔNG TIN CÁ NHÂN</h1>
+        <img class="circle1" src="@Model.Image" />
+        <div class="my-birday">
+            <div class="item">
+                <span class="text-list"> Họ Và Tên:</span>
+                <span class="text-list1">@Model.LastName @Model.FirstName</span>
+            </div>
+            <div class="item">
+                <span class="text-list"> Birthday:</span>
+
+                <span class="text-list1">@Html.FormatValue(@Model.Birthday, "{0:dd/MM/yyyy}")</span>
+            </div>
+            <div class="item">
+                <span class="text-list"> Giới tính:</span>
+                @if (Model.Gender == true)
+                {
+                    <span class="text-list1">Nam</span>
+                }
+                else
+                {
+                    <span class="text-list1">Nữ</span>
+                }
+
+            </div>
+            <div class="item">
+                <span class="text-list">Địa Chỉ:</span>
+                <span class="text-list1">@Model.Address</span>
+            </div>
+            <div class="item">
+                <span class="text-list">Số điện thoại:</span>
+                <span class="text-list1">@Model.Phone</span>
+            </div>
+            <div class="item">
+                <span class="text-list">Email:</span>
+                <span class="text-list1">@Model.Email</span>
+            </div>
+
+        </div>
+        <button onclick="document.getElementById('id01').style.display='block'"
+                style="width:auto;"
+                class="nut">
+            Thay đổi mật khẩu
+        </button>
+        <button onclick="document.getElementById('id02').style.display='block'"
+                style="width:auto;"
+                class="nut1">
+            Cập nhật thông tin
+        </button>
+    </div>
+
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="" method="post">
+            @using (Html.BeginForm("TTcanhan1", "QLPerson", FormMethod.Post))
+            {
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'"
+                          class="close"
+                          title="Close Modal">&times;</span>
+                </div>
+
+                <div class="container">
+                    <label for="psw"><b>Mật khẩu</b></label>
+                    <br />
+                    <input type="password"
+                           placeholder="Enter Password"
+                           name="Password"
+                             id="Password"
+                           required />
+                    <br />
+                    <label for="psw"><b>Mật khẩu mới</b></label>
+                    <br />
+                    <input type="password"
+                           placeholder="Enter New Password"
+                           name="Newpassword"
+                           id="Newpassword"
+                           required />
+                    <div id="toggle" onclick="showHide();">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <br />
+                    <label for="psw"><b> Nhập lại mật khẩu mới</b></label>
+                    <br />
+                    <input type="password"
+                           placeholder="Enter New Password"
+                           name="psw"
+                           id="passwordAgain"
+                           required />
+                    <div id="toggle2" onclick="showHide2();">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <br />
+                    <button type="submit" class="nut">Thay đổi mật khẩu</button>
+
+                </div>
+            }
+
+        </form>
+    </div>
+
+    <div id="id02" class="modal">
+        <form class="modal-content animate" action="UpdatePerson" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'"
+                      class="close"
+                      title="Close Modal">&times;</span>
+                <img class="circle1" src="@Model.Image" alt="" />
+            </div>
+
+            @Html.HiddenFor(model => model.PersonID)
+            <div class="container">
+                <div class="hvt">
+
+                    <h3 class="Name">Họ:</h3>
+
+                    <input type="text"
+                           value="@Model.LastName"
+                           name="LastName"
+                           required
+                           style="width: 20% !important;margin-left: 32px !important;" />
+                    <h3 class="Name">Tên:</h3>
+
+
+                    <input class="formnhap" type="text"
+                           value="@Model.FirstName"
+                           name="FirstName"
+                           required style="width: 20% !important;margin-left: 32px !important;" />
+
+                </div>
+                <div class="hvt">
+                    <label for="uname"><h3 class="Name">Giới tính:</h3></label>
+
+                    @Html.DropDownList("Gender", (IEnumerable<SelectListItem>)ViewBag.GenGender, "--Select Gender--", htmlAttributes:
+                   new { @class = "gender ", style = "width:19.8% ; margin-top: 7px ; margin-left:-12px;padding: 1px 0px; height:40px" })
+
+                    <label for="uname"><h3 class="Name">Ngày sinh:</h3></label>
+
+                    <input type="text"
+                           name="Birthday"
+                           class="datepicker"
+                           value="@Model.Birthday"
+                           style="margin-left: -6px;width:20% !important;"
+                           required />
+
+                </div>
+                <div class="hvt">
+                    <label for="uname"><h3 class="Name">Địa chỉ:</h3></label>
+
+                    <input type="text"
+                           value="@Model.Address"
+                           name="Address"
+                           required
+                           style="width:48% !important" />
+                </div>
+                <div class="hvt">
+                    <label for="uname"><h3 class="Name">Số điện thoại</h3></label>
+
+                    <input type="text"
+                           value="@Model.Phone"
+                           name="Phone"
+                           required
+                           style="width:44.4% !important" />
+                </div>
+                <div class="hvt">
+                    <label for="uname"><h3 class="Name">Email</h3></label>
+
+                    <input type="text"
+                           value="@Model.Email"
+                           name="Email"
+                           required
+                           style="width:49.5% !important"
+                           id="email" " onclick="checkEmail();"
+                          />
+                </div>
+                <div class="hvt">
+                    <label for="uname"><h3 class="Name">Ảnh</h3></label>
+                    <br />
+                    <input type="text"
+                           value="@Model.Image"
+                           name="Image"
+                           id="xFilePath"
+                           class="imageCV"
+                           style="width:44% !important"
+                           required />
+                    <a id="SelectImage" onclick="BrowseServer()" style="position: relative;top: 25px" href="#">Chọn ảnh</a>
+                </div>
+                <button type="submit" style="margin-top: 30px" @*class="nut"*@>Cập nhật thông tin</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+<script src="https://kit.fontawesome.com/e00695e77f.js"
+        crossorigin="anonymous"></script>
+<script src="../Scripts/HomeControl/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/HomeControl/Kiemtraemail.js"></script>
+<script src="http://localhost:57770/Scripts/popper.min.js"></script>
+<script src="http://localhost:57770/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+<script src="../Scripts/HomeControl/index1.js"></script>
+

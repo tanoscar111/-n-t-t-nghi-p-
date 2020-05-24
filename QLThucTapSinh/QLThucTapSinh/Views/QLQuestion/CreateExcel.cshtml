@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "CreateExcel";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    var Tasks = (List<QLThucTapSinh.Models.Task>)ViewBag.ListTask;
+}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="~/Content/dataTables.bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+    <section>
+        <H2 style="color: #007bff!important;">Hướng dẫn  import file excel:</H2>
+        <ol>
+            <li style="    color: red;display: inline-grid;margin-bottom: 42px;">
+                1: Tạo 1 file excel theo form như sau  :
+                <img style="width:81%;" src="~/img/file excel/excel4.png" alt="Alternate Text" />
+            </li>
+            <li style=" color: red; margin-bottom: 42px; display: inline-grid">
+                2:trỏ để lưu vào ổ D:
+                <img style="width:81%" src="~/img/file excel/excel2.jpg" alt="Alternate Text" />
+            </li>
+            <li style="color: red;display: inline-grid;margin-bottom: 42px; ">
+                3:trỏ để lưu file vào ổ D:
+                <img style="width:81%" src="~/img/file excel/excel5.jpg" alt="Alternate Text" />
+            </li>
+        </ol>
+    </section>
+    @using (Html.BeginForm("CreateExcel", "QLQuestion", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.Raw(ViewBag.Error)
+        <br />
+        <section>
+            <h1 style=" color: #007bff!important;">Chọn File Excel: </h1>
+            <input type="file" name="excelfile" />
+            <br />
+        </section>
+        <section>
+            <h2 style="color: #007bff!important;">Chọn nội dung bài học</h2>
+            <select name="taskID">
+                @foreach (var item in Tasks)
+                {
+                    <option value="@item.TaskID">@item.TaskName</option>
+                }
+            </select>
+        </section>
+        <br />
+        <input type="submit" name="Import" />
+
+
+    }
+</body>
+

@@ -1,0 +1,21 @@
+.back-to-top {
+    width: 50px;
+    height: 50px;
+    background: #82ccdd;
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 18px;
+    top:582px;
+    margin-left: -25px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 1.3s;
+}
+.matdi{
+    display: none;
+}

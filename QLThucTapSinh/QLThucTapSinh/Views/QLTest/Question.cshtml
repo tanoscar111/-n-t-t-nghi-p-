@@ -1,0 +1,134 @@
+﻿@model IEnumerable<QLThucTapSinh.Models.Question>
+
+<h2>Question :</h2>
+<form class="table cauhoi1" name="mytable">
+    @{ int i = 1;}
+    @foreach (var item in Model)
+    {
+        var dem = i;
+        if (item.C == null)
+        {
+            <tr>
+                <lable>
+                    <p class="tencauhoi">@Html.DisplayFor(modelItem => item.Content) </p>
+                </lable>
+
+                <input type="radio" name="@item.QuestionID" data-an="@item.Answer" data-idquest="@item.QuestionID" data-task="@item.TaskID" value="A"> @item.A
+                <br>
+                <input type="radio" name="@item.QuestionID" data-an="@item.Answer" data-idquest="@item.QuestionID" data-task="@item.TaskID" value="B"> @item.B
+                <br>
+            </tr>
+        }
+        else
+        {
+
+            if (item.D == null)
+            {<tr>
+                    <lable>
+                        <p class="tencauhoi">@Html.DisplayFor(modelItem => item.Content) </p>
+                    </lable>
+                    <input type="radio" name="@item.QuestionID" data-an="@item.Answer" data-idquest="@item.QuestionID" data-task="@item.TaskID" value="A"> @item.A
+                    <br>
+                    <input type="radio" name="@item.QuestionID" data-an="@item.Answer" data-idquest="@item.QuestionID" data-task="@item.TaskID" value="B"> @item.B
+                    <br>
+                    <input type="radio" name="@item.QuestionID" data-an="@item.Answer" data-idquest="@item.QuestionID" data-task="@item.TaskID" value="C"> @item.C
+                    <br>
+                </tr>
+            }
+            else
+            {
+
+                <tr>
+                    <lable>
+                        <p class="tencauhoi">@Html.DisplayFor(modelItem => item.Content) </p>
+                    </lable>
+                    <input type="radio" name="@item.QuestionID" data-an="@item.Answer" data-idquest="@item.QuestionID" data-task="@item.TaskID" value="A"> @item.A
+                    <br>
+                    <input type="radio" name="@item.QuestionID" data-an="@item.Answer" data-idquest="@item.QuestionID" data-task="@item.TaskID" value="B"> @item.B
+                    <br>
+                    <input type="radio" name="@item.QuestionID" data-an="@item.Answer" data-idquest="@item.QuestionID" data-task="@item.TaskID" value="C"> @item.C
+                    <br>
+                    <input type="radio" name="@item.QuestionID" data-an="@item.Answer" data-idquest="@item.QuestionID" data-task="@item.TaskID" value="D"> @item.D
+                    <br>
+                </tr>
+            }
+        }
+        <br>
+
+        i++;
+    }
+    <h1 class="page-header">
+        <a href="#" id="btn" class="ketqua btn btn-outline btn-primary">Kết quả</a>
+        <a href="/QLTest/Index" class="btn btn-outline btn-primary">Tiếp Tục</a>
+    </h1>
+</form>
+<script src="@Url.Content("~/Scripts/Plugins/jquery-1.10.2.js")" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        var listQ = [];
+        var result = [];
+        var task= 0;
+        var count = 0;
+        $(function () {
+            $('input[type=radio]').change(function () {
+                var stt = $(this).data("idquest");
+                var kq = $(this).data("an");
+                task = $(this).data("task");
+                var value = $(this).val();
+                let dem = result.indexOf(stt);
+                var question = {
+                    QuestionID: "",
+                    Answer: "",
+                    Result: "",
+                };
+                question.QuestionID = stt;
+                question.Answer = value;
+                question.Result = kq;
+                if (dem == -1) {
+                    listQ[count] = question;
+                    result[count] = stt;
+                    count++;
+                } else {
+                    listQ[dem] = question;
+                }
+
+            });
+        });
+
+        $('.ketqua').click(function () {
+            document.getElementById("btn").style.display = 'none';
+            var tk = '@Request.RequestContext.HttpContext.Session["Person"]';
+            var dem1 = 0;
+            for (let i = 0; i < count; i++) {
+                if (listQ[i].Result == listQ[i].Answer) {
+                    dem1++;
+                }
+            }
+            if (dem1 >= 3) {
+                $.ajax({
+                    type: 'GET',
+                    data: {
+                        id: tk,
+                        answer: dem1,
+                        task: task,
+                    },
+                    url: '@Url.Action("UpdateAnswer", "QLTest")',
+                    success: function (result) {
+                        if (result == 'False') {
+                            alert("Không thêm mới đc");
+                        } else {
+                            alert("Chúc mừng. Bạn đúng " + dem1 + " Câu hỏi.  Nhấn tiếp tục để học bài mới.");
+                        }
+                    }
+
+                });
+                
+            } else {
+                alert("Bạn đúng " + dem1 + " Câu hỏi. Hãy cố gắng hơn. Nhấn tiếp tục để học lại.");
+            }
+        });
+    });
+</script>
+
+
+

@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+@using QLThucTapSinh.Models;
+@using PagedList.Mvc;
+@model List<QLThucTapSinh.Models.Task>
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+@section jsFooter{
+
+    <script src="~/Scripts/Controller/TaskController1.js"></script>
+
+}
+
+<div class="from1">
+    <div>
+        <h3>Video Bài Học:</h3>
+    </div>
+    <div class=" videos"></div>
+    <iframe class="video" src="#" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    <div class="list">
+        <h1 class="text1">Danh Sách Video</h1>
+        @{ int j = 0;
+            Int32 result = Convert.ToInt32(Session["Result"].ToString());
+        }
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            var dem = j;
+
+            if (i <= result)
+            {
+
+                <div class="so">
+                    <a href="#" class="btn-active" data-bai="@result" data-dem="@dem" data-id="@Model[i].TaskID" data-note="@Model[i].Note" data-video="@Model[i].Video">
+                        <h3 class="text2">@Model[i].TaskName</h3>
+                    </a>
+                </div>
+
+            }
+            j++;
+        }
+
+    </div>
+    <div>
+        <h3 class="noidung"></h3>
+    </div>
+    <div class="result">
+        <h3 class="noidung1">Nơi Làm Bài Test</h3>
+        <p class="noidunghoc">
+        </p>
+        <div class="baitest1">
+            <a href="#" class="baitest btn btn-outline btn-primary">Bài Test</a>
+        </div>
+    </div>
+
+</div>
+

@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "Quản lý Khóa học";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+
+@using QLThucTapSinh.Models;
+@model PagedList.IPagedList<QLThucTapSinh.Common.QuestionClass>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<link href="~/Content/Quanli/style.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="@Url.Content("~/Scripts/Plugins/jquery-1.10.2.js")" type="text/javascript"></script>
+@{var gr = Session["Role"].ToString();}
+<div style="text-align:center;" class="text-primary"> DANH SÁCH CÂU HỎI</div>
+@if (gr == "4")
+{
+    <h1 class="page-header">
+        <a href="/QLQuestion/Create" class="btn btn-outline btn-primary">Thêm</a>
+    </h1>
+    <h1 class="page-header">
+        <a href="/QLQuestion/CreateExcel" class="btn btn-outline btn-primary">Thêm File Excel</a>
+    </h1>
+    }
+    <input class="form-control" id="myInput" type="text" placeholder="Search..">
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+    });
+});
+    </script>
+    <div class="dataTable_wrapper">
+        <table class="table table-striped table-bordered table-hover" id="table">
+            <thead>
+                <tr>
+                    <th>Nội dung</th>
+                    @if (gr == "4")
+                    {
+                        <th>Đáp án A</th>
+                        <th>Đáp án B</th>
+                        <th>Đáp án C</th>
+                        <th>Đáp án D</th>
+                        <th>Đáp án Đúng</th>
+                    }
+                    else
+                    {
+                        <th>Bài học</th>
+                        <th>Khóa học</th>
+                        <th>Quản lý</th>
+                    }
+                    <th>Sửa</th>
+                    <th>Xóa</th>
+                </tr>
+            </thead>
+            <tbody id="myTable">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Content</td>
+                        @if (gr == "4")
+                        {
+                            <td>@item.A</td>
+                            <td>@item.B</td>
+                            <td>@item.C</td>
+                            <td>@item.D</td>
+                            <td>@item.Answer</td>
+                        }
+                        else
+                        {
+                            <td>@item.TaskName</td>
+                            <td>@item.CourseName</td>
+                            <td>@item.FullName</td>
+                        }
+                        <td><a href="/QLQuestion/Edit/@item.QuestionID" class="btn btn-outline btn-primary">Sửa</a></td>
+                        <td><a href="/QLQuestion/Delete/@item.QuestionID" class="btn btn-outline btn-primary">Xóa</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+

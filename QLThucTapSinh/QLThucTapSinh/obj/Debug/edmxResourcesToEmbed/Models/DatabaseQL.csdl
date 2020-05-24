@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SQLThucTapSinhModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Intern">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StudentCode" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="InternshipID" Type="Int32" />
+    <Property Name="Result" Type="Int32" />
+    <NavigationProperty Name="Person" Relationship="Self.FK__Intern__PersonID__5812160E" FromRole="Intern" ToRole="Person" />
+    <NavigationProperty Name="InternShip" Relationship="Self.FK_Intern_InternShip" FromRole="Intern" ToRole="InternShip" />
+    <NavigationProperty Name="TestResults" Relationship="Self.FK_TestResults_Intern" FromRole="Intern" ToRole="TestResults" />
+  </EntityType>
+  <EntityType Name="InternShip">
+    <Key>
+      <PropertyRef Name="InternshipID" />
+    </Key>
+    <Property Name="InternshipID" Type="Int32" Nullable="false" />
+    <Property Name="CourseName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Note" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="PersonID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="StartDay" Type="DateTime" Precision="3" />
+    <Property Name="ExpiryDate" Type="Int32" />
+    <Property Name="Status" Type="Boolean" />
+    <NavigationProperty Name="Interns" Relationship="Self.FK_Intern_InternShip" FromRole="InternShip" ToRole="Intern" />
+    <NavigationProperty Name="Organization" Relationship="Self.FK_InternShip_Company" FromRole="InternShip" ToRole="Organization" />
+    <NavigationProperty Name="Person" Relationship="Self.FK_InternShip_Person" FromRole="InternShip" ToRole="Person" />
+    <NavigationProperty Name="IntershipWithTasks" Relationship="Self.FK_IntershipWithTask_Internship" FromRole="InternShip" ToRole="IntershipWithTask" />
+  </EntityType>
+  <EntityType Name="IntershipWithTask">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="InternshipID" Type="Int32" />
+    <Property Name="TaskID" Type="Int32" />
+    <Property Name="CheckDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="InternShip" Relationship="Self.FK_IntershipWithTask_Internship" FromRole="IntershipWithTask" ToRole="InternShip" />
+    <NavigationProperty Name="Task" Relationship="Self.FK_IntershipWithTask_Task" FromRole="IntershipWithTask" ToRole="Task" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TextMenu" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Link" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="RoleID" Type="Int32" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_Menu_Role" FromRole="Menu" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Organization">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="Image" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Logo" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Note" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="StartDay" Type="DateTime" Precision="3" />
+    <Property Name="ExpiryDate" Type="Int32" />
+    <Property Name="Status" Type="Boolean" />
+    <Property Name="SendEmail" Type="Boolean" />
+    <NavigationProperty Name="InternShips" Relationship="Self.FK_InternShip_Company" FromRole="Organization" ToRole="InternShip" />
+    <NavigationProperty Name="People" Relationship="Self.FK_Person_Company" FromRole="Organization" ToRole="Person" />
+    <NavigationProperty Name="People1" Relationship="Self.FK_Person_School" FromRole="Organization" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" Precision="0" />
+    <Property Name="Gender" Type="Boolean" />
+    <Property Name="Address" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Image" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="RoleID" Type="Int32" />
+    <Property Name="CompanyID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="SchoolID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Intern" Relationship="Self.FK__Intern__PersonID__5812160E" FromRole="Person" ToRole="Intern" />
+    <NavigationProperty Name="InternShips" Relationship="Self.FK_InternShip_Person" FromRole="Person" ToRole="InternShip" />
+    <NavigationProperty Name="Organization" Relationship="Self.FK_Person_Company" FromRole="Person" ToRole="Organization" />
+    <NavigationProperty Name="Organization1" Relationship="Self.FK_Person_School" FromRole="Person" ToRole="Organization" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Users__PersonID__44FF419A" FromRole="Person" ToRole="Users" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_Person_Role" FromRole="Person" ToRole="Role" />
+    <NavigationProperty Name="Tasks" Relationship="Self.FK_Task_Person" FromRole="Person" ToRole="Task" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="QuestionID" />
+    </Key>
+    <Property Name="QuestionID" Type="Int32" Nullable="false" />
+    <Property Name="TaskID" Type="Int32" />
+    <Property Name="Content" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Answer" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="A" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="B" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="C" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="D" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Task" Relationship="Self.FK_Question_Task" FromRole="Question" ToRole="Task" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameRole" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Menus" Relationship="Self.FK_Menu_Role" FromRole="Role" ToRole="Menu" />
+    <NavigationProperty Name="People" Relationship="Self.FK_Person_Role" FromRole="Role" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Task">
+    <Key>
+      <PropertyRef Name="TaskID" />
+    </Key>
+    <Property Name="TaskID" Type="Int32" Nullable="false" />
+    <Property Name="TaskName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Note" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Video" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="PersonID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="IntershipWithTasks" Relationship="Self.FK_IntershipWithTask_Task" FromRole="Task" ToRole="IntershipWithTask" />
+    <NavigationProperty Name="Person" Relationship="Self.FK_Task_Person" FromRole="Task" ToRole="Person" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_Question_Task" FromRole="Task" ToRole="Question" />
+    <NavigationProperty Name="TestResults" Relationship="Self.FK_TestResults_Task" FromRole="Task" ToRole="TestResults" />
+  </EntityType>
+  <EntityType Name="TestResult">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="PersonID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="TaskID" Type="Int32" />
+    <Property Name="Answer" Type="Int32" />
+    <NavigationProperty Name="Intern" Relationship="Self.FK_TestResults_Intern" FromRole="TestResults" ToRole="Intern" />
+    <NavigationProperty Name="Task" Relationship="Self.FK_TestResults_Task" FromRole="TestResults" ToRole="Task" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PersonID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="PassWord" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="Boolean" />
+    <NavigationProperty Name="Person" Relationship="Self.FK__Users__PersonID__44FF419A" FromRole="Users" ToRole="Person" />
+  </EntityType>
+  <Association Name="FK__Intern__PersonID__5812160E">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Intern" Type="Self.Intern" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="Intern">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Intern_InternShip">
+    <End Role="InternShip" Type="Self.InternShip" Multiplicity="0..1" />
+    <End Role="Intern" Type="Self.Intern" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InternShip">
+        <PropertyRef Name="InternshipID" />
+      </Principal>
+      <Dependent Role="Intern">
+        <PropertyRef Name="InternshipID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestResults_Intern">
+    <End Role="Intern" Type="Self.Intern" Multiplicity="0..1" />
+    <End Role="TestResults" Type="Self.TestResult" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Intern">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="TestResults">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InternShip_Company">
+    <End Role="Organization" Type="Self.Organization" Multiplicity="0..1" />
+    <End Role="InternShip" Type="Self.InternShip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organization">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="InternShip">
+        <PropertyRef Name="CompanyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InternShip_Person">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="InternShip" Type="Self.InternShip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="InternShip">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IntershipWithTask_Internship">
+    <End Role="InternShip" Type="Self.InternShip" Multiplicity="0..1" />
+    <End Role="IntershipWithTask" Type="Self.IntershipWithTask" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InternShip">
+        <PropertyRef Name="InternshipID" />
+      </Principal>
+      <Dependent Role="IntershipWithTask">
+        <PropertyRef Name="InternshipID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IntershipWithTask_Task">
+    <End Role="Task" Type="Self.Task" Multiplicity="0..1" />
+    <End Role="IntershipWithTask" Type="Self.IntershipWithTask" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Task">
+        <PropertyRef Name="TaskID" />
+      </Principal>
+      <Dependent Role="IntershipWithTask">
+        <PropertyRef Name="TaskID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Menu_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="Menu" Type="Self.Menu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="Menu">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Person_Company">
+    <End Role="Organization" Type="Self.Organization" Multiplicity="0..1" />
+    <End Role="Person" Type="Self.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organization">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Person">
+        <PropertyRef Name="CompanyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Person_School">
+    <End Role="Organization" Type="Self.Organization" Multiplicity="0..1" />
+    <End Role="Person" Type="Self.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organization">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Person">
+        <PropertyRef Name="SchoolID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__PersonID__44FF419A">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Person_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="Person" Type="Self.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="Person">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Task_Person">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="Task" Type="Self.Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_Task">
+    <End Role="Task" Type="Self.Task" Multiplicity="0..1" />
+    <End Role="Question" Type="Self.Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Task">
+        <PropertyRef Name="TaskID" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="TaskID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestResults_Task">
+    <End Role="Task" Type="Self.Task" Multiplicity="0..1" />
+    <End Role="TestResults" Type="Self.TestResult" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Task">
+        <PropertyRef Name="TaskID" />
+      </Principal>
+      <Dependent Role="TestResults">
+        <PropertyRef Name="TaskID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SQLThucTapSinhEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Interns" EntityType="Self.Intern" />
+    <EntitySet Name="InternShips" EntityType="Self.InternShip" />
+    <EntitySet Name="IntershipWithTasks" EntityType="Self.IntershipWithTask" />
+    <EntitySet Name="Menus" EntityType="Self.Menu" />
+    <EntitySet Name="Organizations" EntityType="Self.Organization" />
+    <EntitySet Name="People" EntityType="Self.Person" />
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Tasks" EntityType="Self.Task" />
+    <EntitySet Name="TestResults" EntityType="Self.TestResult" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__Intern__PersonID__5812160E" Association="Self.FK__Intern__PersonID__5812160E">
+      <End Role="Person" EntitySet="People" />
+      <End Role="Intern" EntitySet="Interns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Intern_InternShip" Association="Self.FK_Intern_InternShip">
+      <End Role="InternShip" EntitySet="InternShips" />
+      <End Role="Intern" EntitySet="Interns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestResults_Intern" Association="Self.FK_TestResults_Intern">
+      <End Role="Intern" EntitySet="Interns" />
+      <End Role="TestResults" EntitySet="TestResults" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InternShip_Company" Association="Self.FK_InternShip_Company">
+      <End Role="Organization" EntitySet="Organizations" />
+      <End Role="InternShip" EntitySet="InternShips" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InternShip_Person" Association="Self.FK_InternShip_Person">
+      <End Role="Person" EntitySet="People" />
+      <End Role="InternShip" EntitySet="InternShips" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IntershipWithTask_Internship" Association="Self.FK_IntershipWithTask_Internship">
+      <End Role="InternShip" EntitySet="InternShips" />
+      <End Role="IntershipWithTask" EntitySet="IntershipWithTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IntershipWithTask_Task" Association="Self.FK_IntershipWithTask_Task">
+      <End Role="Task" EntitySet="Tasks" />
+      <End Role="IntershipWithTask" EntitySet="IntershipWithTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Menu_Role" Association="Self.FK_Menu_Role">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="Menu" EntitySet="Menus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Person_Company" Association="Self.FK_Person_Company">
+      <End Role="Organization" EntitySet="Organizations" />
+      <End Role="Person" EntitySet="People" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Person_School" Association="Self.FK_Person_School">
+      <End Role="Organization" EntitySet="Organizations" />
+      <End Role="Person" EntitySet="People" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__PersonID__44FF419A" Association="Self.FK__Users__PersonID__44FF419A">
+      <End Role="Person" EntitySet="People" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Person_Role" Association="Self.FK_Person_Role">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="Person" EntitySet="People" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Task_Person" Association="Self.FK_Task_Person">
+      <End Role="Person" EntitySet="People" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_Task" Association="Self.FK_Question_Task">
+      <End Role="Task" EntitySet="Tasks" />
+      <End Role="Question" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestResults_Task" Association="Self.FK_TestResults_Task">
+      <End Role="Task" EntitySet="Tasks" />
+      <End Role="TestResults" EntitySet="TestResults" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

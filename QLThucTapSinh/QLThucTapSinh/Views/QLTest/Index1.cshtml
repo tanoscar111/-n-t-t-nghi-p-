@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "Index1";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    SQLThucTapSinhEntities database = new SQLThucTapSinhEntities();
+
+}
+@using QLThucTapSinh.Models
+@model QLThucTapSinh.Models.InternShip
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Notification</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="~/Content/dataTables.bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link type="text/css"
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700" />
+    @*<link rel="stylesheet" href="~/Content/Home/index.css" />*@
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="~/Content/Quanli/style1.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.more').click(function () {
+                $('.back').addClass('active')
+                $('.front').removeClass('active')
+            })
+            $('.go-back').click(function () {
+                $('.back').removeClass('active')
+                $('.front').addClass('active')
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="card">
+        <div class="front active">
+            <div class="course">Thông báo khóa học</div>
+            <div class="more"><i class="fa fa-info-circle" aria-hidden="true"></i></div>
+            <div class="icon">
+                <h1 class="name">@Model.CourseName</h1>
+                <i class="fa fa-file-code-o" aria-hidden="true"></i>
+            </div>
+            <ul class="information">
+                <li>
+                    <div class="opentime">Thời gian mở:</div>
+                    <div class="otime">@Model.StartDay</div>
+                </li>
+                <li>
+                    <div class="endtime">Thời hạn:</div>
+                    <div class="etime">@Model.ExpiryDate</div>
+                </li>
+            </ul>
+        </div>
+        <div class="back">
+            <div class="go-back"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></div>
+
+            <ul class="information">
+                <li>
+                    <div class="infor">Tên Công Ty:</div>
+                    <div class="details">@Model.Organization.Name</div>
+                </li>
+                <li>
+                    <div class="infor">Tên Leader:</div>
+                    <div class="details">@Model.Person.LastName @Model.Person.FirstName</div>
+                </li>
+                <li>
+                    <div class="infor">Phone:</div>
+                    <div class="details">@Model.Person.Phone</div>
+                </li>
+                <li>
+                    <div class="infor">Gmail:</div>
+                    <div class="details">@Model.Person.Email</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+

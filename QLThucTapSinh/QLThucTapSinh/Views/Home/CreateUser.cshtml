@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Đăng Kí</title>
+    <link href="~/Content/Home/styleDangki.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+</head>
+@model QLThucTapSinh.Models.Users
+@using (Html.BeginForm("CreateUser", "Home", FormMethod.Post))
+{
+    <body>
+        <div class="box">
+            <h2>Đăng Kí Tài Khoản</h2>
+            @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+            <form>
+                <div class="inputBox">
+                    <input type="text" name="UserName" required="">
+                    <label>Tài Khoản</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="PassWord" required="" id="password">
+                    <label>Mật Khẩu</label>
+                    <div id="toggle" onclick="showHide();">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="" required="" id="passwordAgain">
+                    <label>Nhập Lại Mật Khẩu</label>
+                    <div id="toggle2" onclick="showHide2();">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="PersonID" required="" onclick="kiemtra();">
+                    <label>Mã Xác Nhận Từ Gmail</label>
+                </div>
+                <input type="submit" name="" value="Đăng Kí">
+            </form>
+        </div>
+        <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+        <script src="~/Scripts/HomeControl/Dangki.js"></script>
+
+    </body>
+}
+</html>
+

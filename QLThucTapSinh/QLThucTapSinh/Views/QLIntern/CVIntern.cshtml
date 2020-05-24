@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "CVIntern";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    var testResults = (List<QLThucTapSinh.Common.TestResultsClass>)ViewBag.listI;
+}
+@model QLThucTapSinh.Models.Person
+<link href="~/Content/dataTables.bootstrap.css" rel="stylesheet" />
+<link href="~/Content/Home/CV.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<body>
+    <div class="container">
+        <div>
+            <h1>Thông tin của thực tập sinh</h1>
+            <div class="circle">
+                <div class="img">
+                    <img src="@Model.Image" />
+                </div>
+
+                <article class="name">
+                    <div class="name3">
+                        <div><p>Họ và Tên :</p></div>
+                        <div><p>Giới Tính  :</p></div>
+                        <div><p>	Tuổi   :</p></div>
+                        <div><p>Địa Chỉ:</p></div>
+                        <div><p>	Email  :</p></div>
+                        <div><p> School :</p></div>
+
+                    </div>
+                    <div class="name4">
+                        <div><p>@Model.LastName @Model.FirstName</p></div>
+                        <div>
+                            @if (Model.Gender == true)
+                            {
+                                <p class="text-list1">Nam</p>
+                            }
+                            else
+                            {
+                                <p class="text-list1" >Nữ</p>
+                            }
+                        </div>
+                        <div><p>@Html.FormatValue(@Model.Birthday, "{0:dd/MM/yyyy}")</p></div>
+                        <div><p>@Model.Address</p></div>
+                        <div><p>	@Model.Email</p></div>
+                        <div><p>Đại Học Duy Tân</p></div>
+                    </div>
+                </article>
+
+            </div>
+            <h1 class="classh1">Kết quả kiểm tra của thực tập sinh</h1>
+            <div class="rank">
+                <ul>
+                    @{int id = 1; }
+                    @foreach (var item in testResults)
+                    {
+                        var dem = id;
+                        <li>
+                            <span class="number">@dem</span>
+                            <span class="name">@item.TaskName</span>
+                            <span class="points">@item.Answer</span>
+                            <span class="badge"></span>
+                        </li>
+                        id++;
+                    }
+
+
+                </ul>
+            </div>
+        </div>
+
+</body>
+
